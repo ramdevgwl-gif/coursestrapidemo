@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_shared_innovation_and_accessibilities",
+    "info": {
+        "displayName": "Innovation & Accessibility"
+    },
+    "options": {},
+    "attributes": {
+        "Accessibility": {
+            "type": "component",
+            "component": "shared.accessibility",
+            "repeatable": true
+        }
+    },
+    "config": {}
+}

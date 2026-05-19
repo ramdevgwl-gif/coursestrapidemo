@@ -1,0 +1,28 @@
+{
+    "collectionName": "components_shared_home_testimonials",
+    "info": {
+        "displayName": "Home Testimonials"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Image": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "testimonial_list": {
+            "type": "component",
+            "component": "shared.testimonials-section",
+            "repeatable": true
+        }
+    },
+    "config": {}
+}

@@ -1,0 +1,1 @@
+import{q as s,t as r,cl as o,cm as m}from"./strapi-C6VzSEXM.js";function i(a,t){s(2,arguments);var e=r(a),n=r(t);return e.getTime()>n.getTime()}function g(a,t){s(2,arguments);var e=m(t);return o(a,-e)}export{i,g as s};

@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_shared_fqas",
+    "info": {
+        "displayName": "FQA"
+    },
+    "options": {},
+    "attributes": {
+        "Question": {
+            "type": "string"
+        },
+        "Answer": {
+            "type": "text"
+        }
+    },
+    "config": {}
+}

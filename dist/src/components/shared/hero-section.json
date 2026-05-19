@@ -1,0 +1,32 @@
+{
+    "collectionName": "components_shared_hero_sections",
+    "info": {
+        "displayName": "Hero Section"
+    },
+    "options": {},
+    "attributes": {
+        "Heading": {
+            "type": "string"
+        },
+        "Subheading": {
+            "type": "string"
+        },
+        "ButtonText": {
+            "type": "string"
+        },
+        "Image": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "Description": {
+            "type": "text"
+        }
+    },
+    "config": {}
+}

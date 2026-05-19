@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_shared_mentors_sections",
+    "info": {
+        "displayName": "Mentors Section"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Description": {
+            "type": "text"
+        },
+        "mentors": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::mentor.mentor"
+        }
+    },
+    "config": {}
+}

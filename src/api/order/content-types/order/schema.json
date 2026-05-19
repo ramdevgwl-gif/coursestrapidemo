@@ -1,0 +1,89 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "orders"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "order_id": {
+      "type": "string"
+    },
+    "Paymentstatus": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "paid",
+        "failed",
+        "cancelled"
+      ]
+    },
+    "Amount": {
+      "type": "decimal"
+    },
+    "Currency": {
+      "type": "string"
+    },
+    "stripe_session_id": {
+      "type": "string"
+    },
+    "stripe_payment_intent": {
+      "type": "string"
+    },
+    "stripe_customer_id": {
+      "type": "string"
+    },
+    "user_email": {
+      "type": "string"
+    },
+    "user_name": {
+      "type": "string"
+    },
+    "course": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::course.course"
+    },
+    "payment_method": {
+      "type": "string"
+    },
+    "receipt_url": {
+      "type": "string"
+    },
+    "Notes": {
+      "type": "string"
+    },
+    "Firstname": {
+      "type": "string"
+    },
+    "Lastname": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "ZIPCode": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Emailaddress": {
+      "type": "email"
+    }
+  }
+}

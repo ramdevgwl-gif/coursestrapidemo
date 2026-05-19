@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_mentors_grids",
+  "info": {
+    "displayName": "Mentors Grid"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Designation": {
+      "type": "string"
+    },
+    "Photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

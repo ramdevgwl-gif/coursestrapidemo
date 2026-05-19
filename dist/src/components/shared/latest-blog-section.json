@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_shared_latest_blog_sections",
+    "info": {
+        "displayName": "Latest Blog Section"
+    },
+    "options": {},
+    "attributes": {
+        "article": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::article.article"
+        }
+    },
+    "config": {}
+}

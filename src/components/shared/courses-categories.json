@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_courses_categories_s",
+  "info": {
+    "displayName": "Courses Categories "
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "course_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::course-category.course-category"
+    }
+  },
+  "config": {}
+}

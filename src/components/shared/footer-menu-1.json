@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_footer_menu_1s",
+  "info": {
+    "displayName": "Footer Menu 1"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Menu": {
+      "type": "component",
+      "component": "shared.menu",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

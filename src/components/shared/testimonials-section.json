@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_testimonials_sections",
+  "info": {
+    "displayName": "Testimonials Section"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Designation": {
+      "type": "string"
+    },
+    "Rating": {
+      "type": "decimal"
+    },
+    "Description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

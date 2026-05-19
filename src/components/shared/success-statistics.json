@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_success_statistics",
+  "info": {
+    "displayName": "Success Statistics"
+  },
+  "options": {},
+  "attributes": {
+    "Value": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

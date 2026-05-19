@@ -1,0 +1,53 @@
+{
+    "collectionName": "components_shared_home_banners",
+    "info": {
+        "displayName": "Home Banner"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Description": {
+            "type": "text"
+        },
+        "StartFreeTrialButtonLink": {
+            "type": "string"
+        },
+        "SeeAllCourses": {
+            "type": "string"
+        },
+        "Image": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "banner_rating": {
+            "type": "component",
+            "component": "shared.banner-rating",
+            "repeatable": true
+        },
+        "LearnerSatisfactionTitle": {
+            "type": "string"
+        },
+        "LearnerSatisfactionValue": {
+            "type": "string"
+        },
+        "LogoSlides": {
+            "type": "component",
+            "component": "shared.logo-slider",
+            "repeatable": true
+        },
+        "Seo": {
+            "type": "component",
+            "component": "shared.seo",
+            "repeatable": true
+        }
+    },
+    "config": {}
+}

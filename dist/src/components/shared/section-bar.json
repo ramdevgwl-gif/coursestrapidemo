@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_shared_section_bars",
+    "info": {
+        "displayName": "Section Bar"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "SubTitle": {
+            "type": "string"
+        },
+        "Description": {
+            "type": "text"
+        }
+    },
+    "config": {}
+}

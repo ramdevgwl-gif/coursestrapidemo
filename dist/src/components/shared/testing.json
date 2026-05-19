@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_shared_testings",
+    "info": {
+        "displayName": "Testing"
+    },
+    "options": {},
+    "attributes": {
+        "Test": {
+            "type": "string"
+        }
+    },
+    "config": {}
+}

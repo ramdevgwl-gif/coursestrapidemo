@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_shared_mentors",
+    "info": {
+        "displayName": "Mentors"
+    },
+    "options": {},
+    "attributes": {
+        "Mentors": {
+            "type": "component",
+            "component": "shared.mentors-grid",
+            "repeatable": true
+        }
+    },
+    "config": {}
+}

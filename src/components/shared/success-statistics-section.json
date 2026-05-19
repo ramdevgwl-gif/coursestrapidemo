@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_success_statistics_sections",
+  "info": {
+    "displayName": "Success Statistics Section"
+  },
+  "options": {},
+  "attributes": {
+    "success_statistics": {
+      "type": "component",
+      "component": "shared.success-statistics",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

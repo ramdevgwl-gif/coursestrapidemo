@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_shared_latest_blogs",
+    "info": {
+        "displayName": "Latest Blog"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "articles": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::article.article"
+        }
+    },
+    "config": {}
+}

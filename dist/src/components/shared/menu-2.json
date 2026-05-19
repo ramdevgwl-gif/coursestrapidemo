@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_shared_menu_2s",
+    "info": {
+        "displayName": "Menu 2"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "URL": {
+            "type": "string"
+        }
+    },
+    "config": {}
+}

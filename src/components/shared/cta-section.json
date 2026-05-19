@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_shared_cta_sections",
+  "info": {
+    "displayName": "CTA Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "badgeText": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "primaryButtonLink": {
+      "type": "string"
+    },
+    "secondaryButtonText": {
+      "type": "string"
+    },
+    "secondaryButtonLink": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonURl": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "backgroundColor": {
+      "type": "customField",
+      "customField": "plugin::advanced-fields.color"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "ImageAlign": {
+      "type": "enumeration",
+      "default": "Left",
+      "enum": ["Left", "Right"]
+    }
+  },
+  "config": {}
+}

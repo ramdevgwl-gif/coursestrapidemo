@@ -1,0 +1,23 @@
+{
+    "collectionName": "components_shared_footer_settings",
+    "info": {
+        "displayName": "Footer Setting"
+    },
+    "options": {},
+    "attributes": {
+        "FooterSiteDescription": {
+            "type": "text"
+        },
+        "FooterLogo": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        }
+    },
+    "config": {}
+}

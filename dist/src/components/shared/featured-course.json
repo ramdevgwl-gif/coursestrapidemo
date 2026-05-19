@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_shared_featured_courses",
+    "info": {
+        "displayName": "Featured Course"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Description": {
+            "type": "text"
+        },
+        "courses": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::course.course"
+        }
+    },
+    "config": {}
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_faqs",
+  "info": {
+    "displayName": "FAQ"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "FQA": {
+      "type": "component",
+      "component": "shared.fqa",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

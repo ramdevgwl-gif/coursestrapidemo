@@ -1,0 +1,93 @@
+{
+    "kind": "collectionType",
+    "collectionName": "courses",
+    "info": {
+        "singularName": "course",
+        "pluralName": "courses",
+        "displayName": "Courses"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Description": {
+            "type": "text"
+        },
+        "Content": {
+            "type": "blocks"
+        },
+        "InstructorName": {
+            "type": "string"
+        },
+        "Rating": {
+            "type": "decimal"
+        },
+        "Price": {
+            "type": "decimal"
+        },
+        "Discount": {
+            "type": "integer"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "course_category": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::course-category.course-category"
+        },
+        "Duration": {
+            "type": "string"
+        },
+        "Certificate": {
+            "type": "boolean",
+            "default": false
+        },
+        "level": {
+            "type": "string"
+        },
+        "learnings": {
+            "type": "component",
+            "component": "shared.cards-section",
+            "repeatable": true
+        },
+        "slug": {
+            "type": "uid"
+        },
+        "CoursePlan": {
+            "type": "enumeration",
+            "default": "Free",
+            "enum": [
+                "Free",
+                "Paid"
+            ]
+        },
+        "CourseCurriculum": {
+            "type": "dynamiczone",
+            "components": [
+                "shared.curriculum"
+            ]
+        },
+        "Seo": {
+            "type": "component",
+            "component": "shared.seo",
+            "repeatable": true
+        },
+        "lessons": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::lesson.lesson"
+        }
+    }
+}

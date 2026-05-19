@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_shared_banner_ratings",
+    "info": {
+        "displayName": "Banner Rating"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Value": {
+            "type": "string"
+        }
+    },
+    "config": {}
+}

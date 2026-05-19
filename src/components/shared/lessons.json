@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_lessons",
+  "info": {
+    "displayName": "Select Course Lessons"
+  },
+  "options": {},
+  "attributes": {
+    "lessons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::lesson.lesson"
+    }
+  },
+  "config": {}
+}
