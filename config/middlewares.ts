@@ -7,7 +7,7 @@ export default [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['http://localhost:3000', 'http://localhost:3001'],
+      origin: ['http://localhost:3000', 'https://generous-belief-886fd72ed8.strapiapp.com'],
     },
   },
   'strapi::poweredBy',
