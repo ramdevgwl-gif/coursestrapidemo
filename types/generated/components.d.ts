@@ -68,23 +68,13 @@ export interface SharedCtaSection extends Struct.ComponentSchema {
   attributes: {
     backgroundColor: Schema.Attribute.String &
       Schema.Attribute.CustomField<'plugin::advanced-fields.color'>;
-    backgroundImage: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios'
-    >;
-    badgeText: Schema.Attribute.String;
     ButtonText: Schema.Attribute.String;
     ButtonURl: Schema.Attribute.String;
-    description: Schema.Attribute.Text;
     Description: Schema.Attribute.Blocks;
     Image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     ImageAlign: Schema.Attribute.Enumeration<['Left', 'Right']> &
       Schema.Attribute.DefaultTo<'Left'>;
-    primaryButtonLink: Schema.Attribute.String;
-    primaryButtonText: Schema.Attribute.String;
-    secondaryButtonLink: Schema.Attribute.String;
-    secondaryButtonText: Schema.Attribute.String;
     subTitle: Schema.Attribute.String;
-    title: Schema.Attribute.String;
     Title: Schema.Attribute.String;
   };
 }
@@ -107,7 +97,6 @@ export interface SharedFaq extends Struct.ComponentSchema {
   };
   attributes: {
     Description: Schema.Attribute.Text;
-    FQA: Schema.Attribute.Component<'shared.fqa', true>;
     Title: Schema.Attribute.String;
   };
 }
@@ -156,17 +145,6 @@ export interface SharedFooterSetting extends Struct.ComponentSchema {
       'images' | 'files' | 'videos' | 'audios'
     >;
     FooterSiteDescription: Schema.Attribute.Text;
-  };
-}
-
-export interface SharedFqa extends Struct.ComponentSchema {
-  collectionName: 'components_shared_fqas';
-  info: {
-    displayName: 'FQA';
-  };
-  attributes: {
-    Answer: Schema.Attribute.Text;
-    Question: Schema.Attribute.String;
   };
 }
 
@@ -505,7 +483,6 @@ declare module '@strapi/strapi' {
       'shared.footer-menu-1': SharedFooterMenu1;
       'shared.footer-menu-2': SharedFooterMenu2;
       'shared.footer-setting': SharedFooterSetting;
-      'shared.fqa': SharedFqa;
       'shared.heading-section': SharedHeadingSection;
       'shared.hero-section': SharedHeroSection;
       'shared.home-banner': SharedHomeBanner;
